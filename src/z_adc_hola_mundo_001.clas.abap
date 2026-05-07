@@ -17,7 +17,7 @@ CLASS z_adc_hola_mundo_001 IMPLEMENTATION.
 
   METHOD if_oo_adt_classrun~main.
 
-    out->write( 'Hola Mundo' ).
+    out->write( 'Hola Mundo ABAP Cloud' ).
 
   ENDMETHOD.
 ENDCLASS.
