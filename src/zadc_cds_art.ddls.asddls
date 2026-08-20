@@ -4,8 +4,10 @@
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'CDS Articulos CLOUD ADC'
 @Metadata.ignorePropagatedAnnotations: true
+@Metadata.allowExtensions: true
 define view ZADC_CDS_ART as select from zadc_tab_art
 {
+       key client as Client,
        key id_art as IdArt,
        descr as Descr,
        descr2 as Descr2,

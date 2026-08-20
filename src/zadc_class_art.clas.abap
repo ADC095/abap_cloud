@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zadc_class_art IMPLEMENTATION.
+CLASS ZADC_CLASS_ART IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

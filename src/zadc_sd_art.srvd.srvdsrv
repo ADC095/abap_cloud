@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition tienda arte ADC'
+define service ZADC_SD_ART {
+  expose ZADC_CDS_ART;
+}

@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS z_adc_hola_mundo_001 IMPLEMENTATION.
+CLASS Z_ADC_HOLA_MUNDO_001 IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
